@@ -16,7 +16,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Webchat\\": "src/"
+            "marko9827\\Webchat\\": "src/"
         }
     },
     "authors": [

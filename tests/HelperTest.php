@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Webchat\Helper; 
+use marko9827\Webchat\Helper; 
 
 class HelperTest extends TestCase {
     public function testSayHello() {
