@@ -3,7 +3,8 @@
     "description": "PHP package for WebRTC video/audio calls",
     "type": "library",
     "scripts": {
-        "start":"php -S localhost:4000"
+        "start":"php -S localhost:4000",
+        "ws":"php ./src/WebSocket/WebSocketServer.php"
     },
     "require": {
         "php": "^7.4 || ^8.0",
