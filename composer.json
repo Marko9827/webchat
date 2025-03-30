@@ -1,0 +1,29 @@
+{
+    "name": "marko9827/webchat",
+    "description": "PHP package for WebRTC video/audio calls",
+    "type": "library",
+    "scripts": {
+        "start":"php -S localhost:4000"
+    },
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "phpunit/phpunit": "^9.5",
+        "cboden/ratchet": "0.4.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Webchat\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marko Nikolic",
+            "email": "marko.supergun@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
